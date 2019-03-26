@@ -3,4 +3,4 @@
 echo $GITHUB_WORKSPACE
 ls $GITHUB_WORKSPACE
 
-find . -name "*.md" -exec ls -ld {} \;
+find . -name "*.md" -exec markdown-link-check {} \;
