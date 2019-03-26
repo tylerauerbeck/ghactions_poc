@@ -10,7 +10,7 @@ action "Hello World" {
 
 workflow "Check Docs" {
   resolves = ["Check Links"]
-  on = "create"
+  on = "push"
 }
 
 action "Check Links" {
