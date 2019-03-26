@@ -2,4 +2,5 @@
 
 echo $GITHUB_WORKSPACE
 ls $GITHUB_WORKSPACE
-pwd
+
+find . -name "*.md" -exec ls -ld {} \;
