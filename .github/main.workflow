@@ -1,5 +1,5 @@
 workflow "New workflow" {
-  resolves = ["Hello World"]
+  resolves = ["Hello World","Check Links"]
   on = "create"
 }
 
